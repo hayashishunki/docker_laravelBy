@@ -1,3 +1,4 @@
+<!-- 投稿フォーム -->
 <form method="POST" action="{{url('/create')}}">
 @csrf
 
@@ -16,5 +17,5 @@
     <textarea name="body"></textarea>
 </div>
 
-<input type="submit" value="送信" />
+<input type="submit" value="投稿" />
 </form>
